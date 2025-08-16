@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Layout from './components/layout/Layout'
+import BurgerBuilder from './container/BurgerBuilder/BurgerBuilder'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
     <>
       <div>
         <Layout>
-          <p>Test</p>
+          <BurgerBuilder/>
         </Layout>
       </div>
     </>
