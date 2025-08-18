@@ -1,4 +1,5 @@
 import React from "react";
+import PropType from 'prop-types '
 
 const BurgerIngredient = (props) => {
     let ingredient = null;
