@@ -15,6 +15,8 @@ const OrderSummary = (props) => {
 
           </ul>
           <p>CONTINUE TO CHECK OUT?</p>
+          <button>CANCEL </button>
+          <button>CONTINUE</button>
         </>
     )
 }
