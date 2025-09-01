@@ -1,8 +1,5 @@
 .Content {
-    margin: 2rem auto;
-    width: 90%;
+    margin-top: 72px;
+    
 }
 
-b:only-child{
-    max-width: 100px;
-}
