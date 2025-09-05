@@ -8,7 +8,7 @@ const SideDrawer = (props) => {
     //...
     return (
         <div>
-            <div className="Logo">
+            <div className="SideDrawer">
                 <Logo />
             </div>
             

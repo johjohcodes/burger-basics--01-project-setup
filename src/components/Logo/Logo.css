@@ -1,11 +1,26 @@
 .Logo {
     background-color: white;
     padding: 8px;
-    height: 100%;
+    height: 40%;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     border-radius: 5px;
 }
 
-.Logo img {
-    height: 100%;
+.Logo img, .Logo svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .Logo {
+    height: 40px;
+    width: 80px;
+    margin-bottom: 8px;
+  }
 }
