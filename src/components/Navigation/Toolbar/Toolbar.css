@@ -21,7 +21,7 @@
 }
 
 .Logo {
-  height: 40px;
+  height: 11%;
   width: 80px;
   background-color: white;
   padding: 4px 8px;
@@ -56,3 +56,12 @@ nav.DesktopOnly {
     font-size: 14px;
   }
 }
+
+@media(max-width :499px) {
+    .DesktopOnly {
+        display: none;
+        
+    }
+}
+
+
