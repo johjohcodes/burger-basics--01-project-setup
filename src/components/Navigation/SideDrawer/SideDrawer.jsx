@@ -7,8 +7,9 @@ import  './SideDrawer.css'
 const SideDrawer = (props) => {
     //...
     return (
-        <div>
-            <div className="SideDrawer">
+        
+        <div className="SideDrawer">
+                <div className="'Logo">
                 <Logo />
             </div>
             
