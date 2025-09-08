@@ -37,6 +37,13 @@ nav.DesktopOnly {
   align-items: center;
 }
 
+/* Remove bullets from navigation bar in Toolbar */
+nav.DesktopOnly ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 @media (max-width: 500px) {
   .Toolbar {
     height: 48px;
@@ -55,13 +62,9 @@ nav.DesktopOnly {
   nav.DesktopOnly {
     font-size: 14px;
   }
-}
-
-@media(max-width :499px) {
-    .DesktopOnly {
-        display: none;
-        
-    }
+  .DesktopOnly {
+    display: none;
+  }
 }
 
 

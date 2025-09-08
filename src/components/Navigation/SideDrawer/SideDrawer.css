@@ -10,6 +10,7 @@
     padding: 32px 16px;
     box-sizing: border-box;
     transition: transform 0.3s ease-out;
+    
 }
 
 
@@ -29,4 +30,12 @@
 .Logo{
     height: 11%;
     margin-bottom: 32px;
+    
+}
+
+/* Remove bullets from navigation list in SideDrawer */
+.SideDrawer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
