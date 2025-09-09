@@ -3,7 +3,7 @@ import React from "react";
 import './Backdrop.css'
 
 
-const backdrop = (props) =>(
+const Backdrop = (props) =>(
 
  props.show ? <div className="Backdrop"  onClick={props.clicked}></div> : null
 
@@ -12,4 +12,4 @@ const backdrop = (props) =>(
 
 
 
-export default backdrop;
+export default Backdrop;
