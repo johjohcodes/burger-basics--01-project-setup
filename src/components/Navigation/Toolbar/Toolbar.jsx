@@ -2,7 +2,6 @@ import React from "react";
 
 import './Toolbar.css';
 import NavigationItems from "../Navigationitems/NavigationItems";
-// import burgerLogo from '../../assets/images/burgerLogo.png';
 
 const Toolbar = (props) => (
     <header className="Toolbar">
