@@ -7,7 +7,7 @@ const Toolbar = (props) => (
     <header className="Toolbar">
         <div className="Menu" onClick={props.openSideDrawer}>MENU</div>
         <div className="Logo">
-            <img src="/assets/images/burgerLogo.png" alt="Burger" style={{height: '100%', width: 'auto'}} />
+            <img src="/assets/images/burgerLogo.png" alt="Burger" />
         </div>
         <nav className="DesktopOnly">
             <NavigationItems/>
