@@ -11,9 +11,7 @@ function App() {
       <div>
         
         <Layout>
-           <div className="center-burger">
-        <img src="/assets/images/burgerLogo.png" alt="Burger" style={{width: '300px', height: 'auto'}} />
-      </div>
+          
           <BurgerBuilder/>
         </Layout>
       </div>
