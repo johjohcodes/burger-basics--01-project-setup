@@ -1,7 +1,7 @@
 .Toolbar {
   width: 100%;
   height: 56px;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   background-color: #703b09;
@@ -18,31 +18,56 @@
   color: white;
   font-weight: bold;
   font-size: 18px;
-  margin-right: 16px;
+  flex: 1; /* Takes up available space on the left */
+  text-align: left;
 }
 
-.Logo {
-  height: 0px;
-  width: 0px;
+/* Logo positioned in the center */
+.Toolbar .Logo {
+  height: 40px;
+  width: 80px;
   background-color: white;
-  /* padding: 4px 8px; */
+  padding: 4px 8px;
   box-sizing: border-box;
   border-radius: 8px;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
+  flex: 0 0 auto; /* Don't grow or shrink, keep original size */
 }
 
+.Toolbar .Logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Navigation on the right */
 nav.DesktopOnly {
   display: flex;
   align-items: center;
+  flex: 1; /* Takes up available space on the right */
+  justify-content: flex-end;
 }
 
-/* Remove bullets from navigation bar in Toolbar */
 nav.DesktopOnly ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: white;
+}
+
+nav.DesktopOnly ul li {
+  margin-left: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+nav.DesktopOnly ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 500px) {
@@ -50,22 +75,19 @@ nav.DesktopOnly ul {
     height: 48px;
     padding: 0 8px;
   }
-  .Logo {
+  
+  .Toolbar .Logo {
     height: 30px;
     width: 60px;
     padding: 2px 4px;
-    margin: 0 4px;
   }
+  
   .Menu {
     font-size: 16px;
-    margin-right: 8px;
+    flex: 0 0 auto;
   }
+  
   nav.DesktopOnly {
-    font-size: 14px;
-  }
-  .DesktopOnly {
     display: none;
   }
-}
-
-
+} 
