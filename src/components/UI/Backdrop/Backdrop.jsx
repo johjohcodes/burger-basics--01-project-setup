@@ -18,9 +18,9 @@ const Backdrop = (props) => {
     return props.show ? (
         <div className="Backdrop" onClick={handleClick}>
             {/* Temporary debug text - remove after fixing */}
-            <div style={{color: 'white', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>
+            {/* <div style={{color: 'white', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>
                 Click to close
-            </div>
+            </div> */}
         </div>
     ) : null;
 };
