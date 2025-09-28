@@ -82,7 +82,7 @@ nav.DesktopOnly ul li a {
     padding: 2px 4px;
   }
   
-  .Menu {
+  .DrawerToggle {
     font-size: 16px;
     flex: 0 0 auto;
   }
