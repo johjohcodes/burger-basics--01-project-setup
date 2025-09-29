@@ -6,8 +6,8 @@ import NavigationItems from "../Navigationitems/NavigationItems";
 
 const Toolbar = (props) => (
     <header className="Toolbar">
-        <DrawerToggle clicked={props.openSideDrawer} />
-        {/* <div className="Menu" onClick={props.openSideDrawer}>MENU</div> */}
+        {/* <DrawerToggle clicked={props.openSideDrawer} /> */}
+        <div className="Menu" onClick={props.openSideDrawer}>MENU</div>
         <div className="Logo">
             <img src="/assets/images/burgerLogo.png" alt="Burger" />
         </div>
